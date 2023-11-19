@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lirirum\\source\\repos\\WebApplication13\\WebApplication13\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lirirum\\source\\repos\\WebApplication13\\WebApplication13\\wwwroot\\img\\sucsess.png",
+      "PackagePath": "staticwebassets\\img\\sucsess.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplication13.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplication13.props",
+      "PackagePath": "build\\WebApplication13.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication13.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication13.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplication13.props",
+      "PackagePath": "buildTransitive\\WebApplication13.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

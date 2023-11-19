@@ -1,0 +1,48 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebApplication13.Models.RegistrationModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width" />
+    <title>Форма</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+
+    <div class="main">
+    <form method="post" action="/Home/Create">
+
+        <div >
+            <label asp-for="Name">Ім'я та прізвище:</label>
+            <input type="text"   asp-for="Name" required >
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div >
+            <label asp-for="Email">Email:</label>
+            <input type="email"   asp-for="Email" required>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div >
+             <label asp-for="Date">Бажана дата консультації:</label>
+              <input type="date"   asp-for="Date" required>
+              <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+
+        <div>
+             <label asp-for="Product">Продукт:</label>
+            <select   asp-for="Product" required>
+                <option value="JavaScript">JavaScript</option>
+                <option value="C#">C#</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Основи">Основи</option>
+            </select>
+            <span asp-validation-for="Product" class="text-danger"></span>
+        </div>
+        <button type="submit" >Зареєструватися</button>
+    </form>
+
+</div>
+</body>

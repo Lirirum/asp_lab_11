@@ -1,0 +1,85 @@
+﻿.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid #888;
+    padding: 30px;
+}
+
+input[type=text], input[type=email], input[type=date], input[type=datetime-local] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+
+
+button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:100%
+   
+}
+
+
+
+.field-validation-error {
+    color: #b94a48;
+    display: block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input.valid {
+    border: 1px solid #16a085;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+
+h1 {
+    color: #74a7f7;
+}
+#my_img{
+    width:600px;
+}
